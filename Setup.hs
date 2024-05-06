@@ -2,7 +2,7 @@ import Control.Monad (void)
 import Control.Concurrent (threadDelay, forkIO)
 import Data.Foldable (forM_)
 import Distribution.Simple
-       (simpleUserHooks, buildHook, defaultMainWithHooks)
+       (simpleUserHooks, buildHook, defaultMain)
 import System.IO (stdout, hFlush)
 
 -- We should split JSDOM.Types into smaller packages.
